@@ -114,7 +114,7 @@ module.exports = {
         //'redirect-ssl',
     
         // Will register file from project api directory to handle /api/* requires
-        { path: 'http://localhost:3000/api', handler: 'api/index.js' },
+        //{ path: 'http://localhost:3000/api', handler: 'api/index.js' },
     
         // We can create custom instances too
         //{ path: '/static2', handler: serveStatic(__dirname + '/static2') }
