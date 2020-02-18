@@ -103,8 +103,10 @@ export default class CartAPI extends RestAPI {
   }
   */
  
-  async addConfigProductToCart(option) {
-    
+  async addConfigProductToCart(router, option) {
+    router.push({
+      path: '/test'
+      });
     let data = {
       "cart_item": {
         "quote_id": 796,

@@ -1,0 +1,10 @@
+[
+    {
+      "from": "/api/addToCart",
+      "to": "https://ecom.liena.com.vn/checkout/cart/"
+    },
+    {
+        "from": "/test",
+        "to": "/test"
+      }
+  ]
